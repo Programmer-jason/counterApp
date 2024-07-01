@@ -1,0 +1,43 @@
+body {
+    box-sizing: border-box;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to bottom, rgba(0, 240, 100, 0.808), rgba(255, 255, 255, 0.808), rgb(0, 255, 149));
+}
+
+.container {
+    width: 30%;
+    height: 300px;
+    background-image: linear-gradient(to left top, rgb(10, 123, 216), rgba(1, 77, 240, 0.993));
+    margin: auto ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 16px;
+    border: 2px black solid;
+
+}
+
+#counter-output {
+    box-sizing: border-box;
+    background-color:  rgb(51, 216, 10);
+    width: 200px;
+    height: 100px;
+    border-radius: 16px;
+    border: 2px black solid;
+    text-align: center;
+    font-size: 50px;
+    padding-top: 20px;
+}
+
+button {
+    width: 80px;
+    padding: 5px;
+    border-radius: 16px;
+    background-color: rgb(51, 216, 10) ;
+}
